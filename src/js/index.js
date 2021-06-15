@@ -12,4 +12,5 @@ import "../styles/index.scss";
 import { Home } from "./component/home.js";
 
 //render your react application
+document.title = "React semaforo";
 ReactDOM.render(<Home />, document.querySelector("#app"));
